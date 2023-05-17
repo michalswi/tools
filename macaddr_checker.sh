@@ -10,6 +10,11 @@ fileName=macaddr-vendor-list.txt
 gistURL=https://gist.githubusercontent.com/michalswi/73eb4920862891a53e7decc840f82554/raw/7937380355c4974901cc7f8ea8426d3517c843cd
 string=$1
 
+if [ -z $1 ]; then
+    echo "missing macaddr"
+    exit 1
+fi
+
 if ! [ -f "/tmp/$fileName" ]; then
     wget -q \
     ${gistURL}/${fileName} \
