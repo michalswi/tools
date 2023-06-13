@@ -1,3 +1,7 @@
+![](https://img.shields.io/github/issues/michalswi/tool)
+![](https://img.shields.io/github/forks/michalswi/tool)
+![](https://img.shields.io/github/stars/michalswi/tool)
+![](https://img.shields.io/github/last-commit/michalswi/tool)
 
 ### \# macaddr_checker.sh
 
