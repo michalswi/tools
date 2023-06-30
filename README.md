@@ -12,3 +12,11 @@
 $ ./macaddr_checker.sh 6c:c7:ec:92:48:61
 6CC7EC SAMSUNG ELECTRO-MECHANICS(THAILAND)
 ```
+
+### \# gsearch.sh
+
+```
+$ ./gsearch.sh <what>
+$ ./gsearch.sh <what>+<more>
+$ ./gsearch.sh <what>+<more>+<more>
+```
