@@ -20,3 +20,21 @@ $ ./gsearch.sh <what>
 $ ./gsearch.sh <what>+<more>
 $ ./gsearch.sh <what>+<more>+<more>
 ```
+
+### \# screenshots
+
+Make screenshots of domains
+
+```
+$ cd screenshots
+
+$ cat <domains_list>
+<domain1>
+<domain2>
+<domain3>
+
+$ ./genLst.py <file>
+"['<domain1>', '<domain2>', '<domain3>']"
+
+$ ./makeScreenshot.py "['<domain1>', '<domain2>', '<domain3>']"
+```
