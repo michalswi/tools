@@ -23,17 +23,17 @@ $ ./gsearch.sh <what>+<more>+<more>
 
 ### \# screenshots
 
-Make screenshots of domains
+Make [screenshots](./screenshots/) of domains
 
 ```
 $ cd screenshots
 
-$ cat <domains_list>
+$ cat <domains_list_file>
 <domain1>
 <domain2>
 <domain3>
 
-$ ./genLst.py <file>
+$ ./genLst.py <domains_list_file>
 "['<domain1>', '<domain2>', '<domain3>']"
 
 $ ./makeScreenshot.py "['<domain1>', '<domain2>', '<domain3>']"
