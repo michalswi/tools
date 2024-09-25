@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-# macaddr vendor list [gist] - version from 15/05/2023
+# macaddr vendor list [gist] - version from 25/09/2024
 
 # accepted format (M - adapter manufacturer, S - device)
 # MM:MM:MM:SS:SS:SS
 # MM-MM-MM-SS-SS-SS
 
 fileName=macaddr-vendor-list.txt
-gistURL=https://gist.githubusercontent.com/michalswi/73eb4920862891a53e7decc840f82554/raw/7937380355c4974901cc7f8ea8426d3517c843cd
+gistURL=https://gist.githubusercontent.com/michalswi/e4a4dec65c8c0e4a597f5e2cab8fc44b/raw/457a34368bbbd6920cd4028d40e0288854ec6447/
 string=$1
 
 if [ -z $1 ]; then
